@@ -1,0 +1,82 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+
+/* Top section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(45, 37, 160, 1);
+    padding-left: 156px;
+   
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    margin-right: 6px;
+    margin-top: 43px;
+   
+
+
+}
+.top-banner{
+    background-color: rgba(45, 37, 160, 1);
+   
+    
+}
+.half-width{
+    width: 50%;
+}
+
+h1{
+    font-size:64px;
+    padding-left: 156px;
+    padding-top:121px ;
+    border-radius: nullpx;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom:27px;
+    height: 230px;
+    width: 485px;
+
+}
+.flexible-container{
+    display: flex;
+}
+.half-width img{
+    width: 80%;
+    margin-top: 67px;
+    margin-bottom: 86px;
+    margin-right: 141px;
+}
+
+.link-button{
+    text-decoration: none;
+    color:white;
+    border:5px solid rgba(224, 44, 109, 1);
+    background-color:rgba(224, 44, 109, 1);    ;
+    border-radius: 0px;
+    font-weight: 700px;
+    padding: 10px 24px 10px 24px;
+    margin-left: 156px;
+    margin-top:27px;
+    margin-bottom: 170px;
+
+}
+
+/* Players Data */
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+}
+.player .player img{
+    height: 474px;
+width: 330px;
+border-radius: 0px;
+padding: 15px;
+
+}
