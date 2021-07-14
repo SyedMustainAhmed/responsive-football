@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    overflow-x: hidden;
 }
 
 
@@ -42,7 +43,6 @@ h1{
     background-color: #2D25A0;
     height: 677px;
     display: flex;
-  
 }
 
 .half-width img{
@@ -65,11 +65,12 @@ h1{
     margin-bottom: 170px;
 
 }
+.banner-container:hover .banner-img img{
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
 
 /* Players Data */
-
-
-
 .players{
     display: grid;
     grid-template-columns: repeat(3,330px);
@@ -77,15 +78,12 @@ h1{
     grid-row-gap: 27px;
     margin-top: 70px;
     justify-content: center;
-   
-    
+
 }
 .player{
-    
     padding: 15px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
 }
-
 .player img{
 width: 100%;
 }
@@ -109,14 +107,16 @@ letter-spacing: 0em;
 text-align: left;
 margin-top: 10px;
 margin-bottom: 10px;
-
 }
 .container{
 display: flex;
+
 }
 .half-width-copa{
     width: 50%;
 }
+/* Player data */
+/* Last Banner */
 .half-width-copa img{
     height: 427px;
 width: 567px;
@@ -154,4 +154,73 @@ margin-top: 8px;
 .half-width-copa a{
     margin-left: 182px;
     margin-top: 24px;
+}
+/* Video Player */
+.video-player{
+    margin-top: 150px;
+   
+    margin-left: 150px;
+}
+
+
+
+
+/* Video player */
+
+
+/* Form */
+h4{
+    margin-left: 70px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    color: lightseagreen;
+}
+form{
+    margin-top: 10px;
+    margin-left: 70px;
+    position: relative;
+}
+
+/* Form */
+/* Buy now */
+.Buy-Now{
+    margin-top: 250px;
+    margin-left: 250px;
+    margin-right: 250px;
+    position: absolute;
+}
+/* Buy now */
+/* Last Banner */ 
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+    margin: 140px auto;
+
+}
+.footer-image img {
+width:484px;
+margin-bottom: 20px;
+margin-top: 0px;
+}
+.fab{
+    margin-right:14px ;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 8px;
+    background: lightgrey;
+    border-radius: 50%;
+}
+.copyright{
+    font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: right;
+color: rgba(0, 0, 0, 1);
+
 }
