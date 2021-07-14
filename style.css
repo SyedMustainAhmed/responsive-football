@@ -22,11 +22,7 @@ nav a{
 
 
 }
-.top-banner{
-    background-color: rgba(45, 37, 160, 1);
-   
-    
-}
+
 .half-width{
     width: 50%;
 }
@@ -37,19 +33,25 @@ h1{
     padding-top:121px ;
     border-radius: nullpx;
     color: rgba(255, 255, 255, 1);
-    margin-bottom:27px;
+    padding-bottom: 27px ;
     height: 230px;
     width: 485px;
 
 }
-.flexible-container{
+.banner-container {
+    background-color: #2D25A0;
+    height: 677px;
     display: flex;
+  
 }
+
 .half-width img{
     width: 80%;
     margin-top: 67px;
-    margin-bottom: 86px;
+    margin-left: 102px;
     margin-right: 141px;
+    margin-bottom: 86px;
+  
 }
 
 .link-button{
@@ -66,24 +68,90 @@ h1{
 
 /* Players Data */
 
-.player-group{
-display: grid;
-grid-template-columns: repeat(3,1fr);
-grid-column-gap: 30px;
-margin-left: 180px;
-}
+
 
 .players{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,330px);
     grid-column-gap: 30px;
-    margin-left: 180px;
+    grid-row-gap: 27px;
     margin-top: 70px;
+    justify-content: center;
+   
     
 }
+.player{
+    
+    padding: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+}
 
-.player .player img{
-   width:50%;
+.player img{
+width: 100%;
+}
+.player-detail p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(108, 108, 108, 1);
+}
+.player-detail h3{
+    font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+.container{
+display: flex;
+}
+.half-width-copa{
+    width: 50%;
+}
+.half-width-copa img{
+    height: 427px;
+width: 567px;
+left: 717px;
+top: 2889px;
 border-radius: 0px;
-padding: 15px;
+    margin-top: 165px;
+    margin-left: 70px;
+}
+.half-width-copa h2{
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(10, 8, 38, 1);
+    margin-top:224px;
+    margin-left: 182px;
+
+
+}
+.half-width-copa p{
+    font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+color: rgba(108, 108, 108, 1);
+margin-left: 182px;
+margin-top: 8px;
+}
+.half-width-copa a{
+    margin-left: 182px;
+    margin-top: 24px;
 }
